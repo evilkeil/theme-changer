@@ -1,12 +1,25 @@
+:root.light{
+    --base-fill-color:#000000;
+    --base-bkg-color:#FFFFFF;
+}
+
+:root.dark{
+    --base-fill-color:#FFFFFF;
+    --base-bkg-color:#000000;;
+
+}
+
 body{
     display: grid;
     height: 100vh;
     justify-items: center;
     align-items: center;
+    background-color: var(--base-bkg-color);
 }
 
 svg{
     width: 20vw;
+    fill:var(--base-fill-color)
 }
 
 svg:hover{
