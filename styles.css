@@ -1,0 +1,14 @@
+body{
+    display: grid;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+}
+
+svg{
+    width: 20vw;
+}
+
+svg:hover{
+    cursor: pointer;
+}
